@@ -1,6 +1,3 @@
-# Sample Azure Blueprint Module
-# This module deploys basic Azure resources as per a blueprint
-
 resource "azurerm_resource_group" "rg" {
   name     = var.resource_group_name
   location = var.location

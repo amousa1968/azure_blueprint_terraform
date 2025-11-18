@@ -6,7 +6,6 @@ variable "resource_group_name" {
 variable "location" {
   description = "Azure region"
   type        = string
-  default     = "East US"
 }
 
 variable "storage_account_name" {
@@ -22,7 +21,6 @@ variable "vnet_name" {
 variable "vnet_address_space" {
   description = "Address space for the virtual network"
   type        = list(string)
-  default     = ["10.0.0.0/16"]
 }
 
 variable "subnet_name" {
@@ -33,5 +31,4 @@ variable "subnet_name" {
 variable "subnet_address_prefixes" {
   description = "Address prefixes for the subnet"
   type        = list(string)
-  default     = ["10.0.1.0/24"]
 }
