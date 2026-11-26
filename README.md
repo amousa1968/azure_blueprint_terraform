@@ -25,6 +25,9 @@ This sample project demonstrates how to convert an Azure Blueprint into Terrafor
 ## Pipeline
 The `azure-pipelines.yml` file defines a CI/CD pipeline for validating and deploying the infrastructure.
 
+## Diagrams
+![Terraform_Reusable modules](Terraform_Reusable%20modules.jpeg)
+
 ## Collaboration and Troubleshooting
 - Collaborate with cloud architects to ensure automation aligns with design principles.
 - Troubleshoot deployment issues by checking pipeline logs and Terraform state.
